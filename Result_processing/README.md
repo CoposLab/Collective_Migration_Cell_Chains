@@ -1,4 +1,4 @@
-# MATLAB codes for making kymographs of traction stresses and doublet length over time using simulation data from running C/C++ codes
+MATLAB codes for making kymographs of traction stresses and doublet length over time using simulation data from running C/C++ codes.
 
 List of MATLAB codes:
 1. To generate the kymograph of traction stresses and doublet length figure, use:
