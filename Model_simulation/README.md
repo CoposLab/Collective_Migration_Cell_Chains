@@ -8,6 +8,7 @@ To compile the code, use:
        g++-13 -Wl,-ld_classic doublet_MDCK.cpp -o EXEFILENAME
      
 
+
 To run simulations, use:
   1. Stepping Dd doublet:
       ./EXEFILENAME -a 1.0 -b 1.0 -c 1.0 -e 0.16 -f 0.008 -g 10.5 -i 1.04 -j 1.0 -k 1.0 -l 1.0 -m 0.16 -n 0.006 -p 10.5 -q 1.04&
@@ -17,6 +18,7 @@ To run simulations, use:
 
   3. MDCK-like doublet:
       ./EXEFILENAME -a 1.0 -b 1.0 -c 1.0 -e 0.16 -f 0.008 -g 10.5 -i 20.0 -j 1.0 -k 1.0 -l 1.0 -m 0.16 -n 0.006 -p 10.5 -q 20.0&
+
 
 User-specified parameters:
 
@@ -31,11 +33,13 @@ User-specified parameters:
   -g & -p: threshold rupture load, Fcrit, of the leader & trailer
   
   -i & -q: protrusive strength, rho_1, of the leader & trailer
-  
+
+
 
 Note:
 
   Please remember to recompile if intercellular junction parameters (R, r, A, a) are changed in the cpp code.
+
 
 
 List of C/C++ codes:
