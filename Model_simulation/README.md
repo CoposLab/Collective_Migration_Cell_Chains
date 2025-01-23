@@ -19,14 +19,22 @@ To run simulations, use:
       ./EXEFILENAME -a 1.0 -b 1.0 -c 1.0 -e 0.16 -f 0.008 -g 10.5 -i 20.0 -j 1.0 -k 1.0 -l 1.0 -m 0.16 -n 0.006 -p 10.5 -q 20.0&
 
 User-specified parameters:
+
   -a & -j: membrane resting tension, gamma, of the leader & trailer
+  
   -b & -k: membrane elastic stiffness, k, of the leader & trailer
+  
   -c & -l: adhesive bonds stiffness, ka, of the leader & trailer
+  
   -e & -m: bond formation rate, kon, of the leader & trailer
+  
   -g & -p: threshold rupture load, Fcrit, of the leader & trailer
+  
   -i & -q: protrusive strength, rho_1, of the leader & trailer
+  
 
 Note:
+
   Please remember to recompile if intercellular junction parameters (R, r, A, a) are changed in the cpp code.
 
 
