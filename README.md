@@ -1,4 +1,5 @@
 Two-dimensional mechanic-based models of collective migration of tandem cell pairs.
+A Morse potential is used to describe cell-cell adhesion at the intercellular junction.
 
 List of directory:
 1. Configurations:
